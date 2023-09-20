@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: var(--ion-color-light);
+}
+
+.loadingText{
+    font-family: var(--ff-mont);
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--ion-color-dark);
+}

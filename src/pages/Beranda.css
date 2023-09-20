@@ -1,0 +1,94 @@
+.background-image{
+    --background: var(--ion-color-primary);
+}
+
+ion-header{
+    --background: transparent;
+    --ion-toolbar-background: transparent;
+}
+
+ion-header.bg-active{
+    --ion-toolbar-background: rgba(0, 0, 0, 0.363);
+}
+
+.searchBtn{
+    font-size: 22px;
+}
+
+.searchBtnHidden{
+    font-size: 22px;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.weather-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: var(--ion-color-light);
+    margin-top: -10px;
+}
+
+.weather-info-sep{
+    margin: 0 10px;
+}
+
+.weather-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: -8px;
+}
+
+.weather-main img{
+    width: 50px;
+}
+
+.weather-main span{
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.main-info{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-family: var(--ff-mont)
+}
+
+.main-info > h1{
+    font-size: 80px;
+    font-weight: 500;
+    color: var(--ion-color-light);
+}
+
+.main-info > h1 > span{
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    top: -35px;
+    left: 5px;
+}
+
+.other-info ion-card{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+ion-card-subtitle, ion-card-title{
+    font-family: var(--ff-mont);
+}
+
+ion-card-title{
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(73, 73, 73);
+}
+
+ion-card-subtitle{
+    text-transform: none;
+    font-weight: 500;
+    font-size: 14px;
+}

@@ -1,5 +1,7 @@
 {
   "name": "informasi-cuaca",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "react-vite"
 }

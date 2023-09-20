@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--ion-color-light);
+}
+
+.wrapper{
+    position: relative;
+    text-align: center;
+    top: -50px;
+}
+
+.main{
+    font-family: var(--ff-mont);
+    font-weight: 700;
+    color: red;
+    font-size: 22px;
+    word-wrap: break-word;
+}
+
+.main::after{
+    content: '!';
+}
+
+.desc{
+    font-family: var(--ff-mont);
+}
